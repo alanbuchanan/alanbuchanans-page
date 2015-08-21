@@ -110,6 +110,10 @@ figure {
   font-size: 20px;
 }
 
+figcaption {
+  font-size: 0.6em;
+}
+
 #slide2.slide {
   padding: 60px 20px;
 }
