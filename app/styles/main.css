@@ -1,0 +1,248 @@
+@import url(http://fonts.googleapis.com/css?family=Work+Sans:100);
+@import url(http://fonts.googleapis.com/css?family=Raleway:600);
+@import url(http://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+div {
+  color: white;
+}
+
+h3 {
+  color: black;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  margin: auto;
+  z-index: 100000;
+  width: 100%;
+}
+
+a:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+.icons {
+  margin: auto;
+  text-align: center;
+}
+
+.icons li {
+  display: inline;
+  list-style-type: none;
+  padding: 30px;
+  /* text-shadow: 0px 0px 10px rgba(0,0,0,1); */
+}
+
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  min-width: 60vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .7);
+  transform-style: inherit;
+}
+
+#slide1 {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('https://upload.wikimedia.org/wikipedia/commons/c/c0/The_Park_Northpoint_-_Office_View.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  /* text-shadow: 0px 0px 3px rgba(0,0,0,0.9); */
+}
+
+#slide2 {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url('http://www.andrewbrooksphotography.com/uploads/gallery/panoramic/2460.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.well {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 20px;
+  height: 100%;
+  padding: 40px;
+  text-align: center;
+}
+
+.well-bottom {
+  display: inline-block;
+}
+
+.well span {
+  font-size: 30px;
+}
+
+.pic {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#slide3 {
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url('http://goodthinkinc.com/wp-content/uploads/2011/07/orange-office.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.img-thumbnail {
+  max-height: 70%;
+  max-width: 70%;
+}
+
+figure {
+  font-size: 20px;
+}
+
+#slide2.slide {
+  padding: 60px;
+}
+
+#slide3.slide {
+  padding: 60px;
+}
+
+#slide4.slide {
+  padding: 60px;
+}
+
+.col-md-4 {
+  padding: 20px;
+}
+
+.portfolio-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+#slide4 {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('http://www.nubolo.net/img/2015/3/1543_45_modern-home-office-design--fice-exciting-office-design-gallery-.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* Transparent header */
+
+#slide4 div {
+  padding: 20px;
+}
+
+#slide4 p {
+  font-family: 'Nothing You Could Do', cursive;
+  display: inline-block;
+  font-size: 25px;
+  padding: 10px;
+}
+
+#slide4 i {
+  display: inline-block;
+}
+
+.navbar, .jumbotron {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  margin: auto;
+  text-align: center;
+}
+
+.container-top-mob {
+  position: relative !important;
+}
+
+.container-top-mob h3 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.bot {
+  height: 100px;
+  background-color: #AAA8AA;
+  background: #AAA8AA;
+  border-color: transparent;
+  position: relative !important;
+}
+
+.bot p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: black;
+}
+
+.icon-hover {
+  color: red;
+  background-color: red;
+}
+
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.navbar-brand,
+a {
+  color: white;
+}
+
+.visible-xs .navbar-brand {
+  float: right;
+}
+
+.visible-xs .dropdown {
+  float: left;
+  color: black;
+  margin: 3px 0 0 3px;
+  background-color: #ececec;
+  border-radius: 20%;
+}
+
+.visible-xs .dropdown a:hover {
+  text-decoration: none;
+}
+
+.visible-xs .dropdown-toggle {
+  color: black;
+  padding: 6px, 8px;
+}
+
+.visible-xs .dropdown-menu {
+  background-color: #ececec;
+}
+
+.visible-xs .dropdown-menu li {
+  font-size: 20px;
+  margin: 0 9px 0 0;
+}
+
+.visible-xs .dropdown-menu i {
+  float:right;
+}
+
+.visible-xs .dropdown-menu a {
+  color: black;
+}
+
+.visible-xs .navbar-collapse {
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+
+.visible-xs a span {
+  color: black !important;
+}
