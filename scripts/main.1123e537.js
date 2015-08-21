@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".icons i").css("opacity",1),$(".icons li").hover(function(){$(this).find("i").stop().fadeTo("slow",.6)},function(){$(this).find("i").stop().fadeTo("slow",1)}),$("#slide4 a").hover(function(){$(this).find("i, p").stop().fadeTo("slow",.8)},function(){$(this).find("i, p").stop().fadeTo("slow",1)}),$(".dropdown-toggle").dropdown()});
