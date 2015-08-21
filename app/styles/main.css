@@ -52,7 +52,7 @@ a:hover {
 #slide1 {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('https://upload.wikimedia.org/wikipedia/commons/c/c0/The_Park_Northpoint_-_Office_View.jpg');
   background-attachment: fixed;
-  background-size: cover;
+  background-size: auto;
 }
 
 h1 {
@@ -60,10 +60,14 @@ h1 {
   /* text-shadow: 0px 0px 3px rgba(0,0,0,0.9); */
 }
 
+#slide1 ul {
+  padding: 0;
+}
+
 #slide2 {
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url('http://www.andrewbrooksphotography.com/uploads/gallery/panoramic/2460.jpg');
   background-attachment: fixed;
-  background-size: cover;
+  background-size: auto;
 }
 
 .well {
@@ -77,7 +81,7 @@ h1 {
 }
 
 .well-bottom {
-  display: inline-block;
+  display: block;
 }
 
 .well span {
@@ -94,6 +98,7 @@ h1 {
   background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url('http://goodthinkinc.com/wp-content/uploads/2011/07/orange-office.jpg');
   background-attachment: fixed;
   background-size: cover;
+  padding: 0;
 }
 
 .img-thumbnail {
@@ -106,15 +111,15 @@ figure {
 }
 
 #slide2.slide {
-  padding: 60px;
+  padding: 60px 20px;
 }
 
 #slide3.slide {
-  padding: 60px;
+padding-top: 60px;
 }
 
 #slide4.slide {
-  padding: 60px;
+  padding: 60px 20px;
 }
 
 .col-md-4 {
@@ -125,14 +130,14 @@ figure {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
   font-family: 'Work Sans', sans-serif;
 }
 
 #slide4 {
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('http://www.nubolo.net/img/2015/3/1543_45_modern-home-office-design--fice-exciting-office-design-gallery-.jpg');
   background-attachment: fixed;
-  background-size: cover;
+  background-size: auto;
 }
 /* Transparent header */
 
@@ -142,13 +147,18 @@ figure {
 
 #slide4 p {
   font-family: 'Nothing You Could Do', cursive;
-  display: inline-block;
-  font-size: 25px;
+
+  font-size: 1.5em;
   padding: 10px;
 }
 
 #slide4 i {
-  display: inline-block;
+  font-size: 1.5em;
+  padding-right: 8px;
+}
+
+#slide4 h1, #slide4 p {
+  padding-left: 25px;
 }
 
 .navbar, .jumbotron {
@@ -245,4 +255,8 @@ a {
 
 .visible-xs a span {
   color: black !important;
+}
+
+.visible-xs li {
+  padding: 10px;
 }
